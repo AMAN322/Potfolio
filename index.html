@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link"
+                >Social Media</a
+              >
+            </div>
+            <div class="col-3">
+              <a
+                href="https://drive.google.com/file/d/1bQiYw97Cbi4X0cu3HvnH2d30BjEi_OsO/view?usp=sharing"
+                target="_blank"
+                class="text-white navigation-link"
+                >Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Aman Boobna</h1>
+          <h2 class="text-white">Full-Stack Web Developer</h2>
+          <p class="text-white">I am a <b class="text-warning">Computer Science</b> student from Manipal Institute of Technology, Manipal. I have developed a keen interest in web development during the COVID pandemic.</p>
+        </div>
+        <div class="col-6">
+            <img
+            src="./img/home.svg"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-6">
+          
+          <img src="./img/aman-img.jpg" class="img-fluid" />
+        </div>
+        <div class="col-6 pl-5 pt-5 pb-5 text-white">
+          <h1 class="text-warning">About Me</h1>
+          
+          <p>
+            A steadfast and highly analytical individual with strong communication and programming skills aspiring to work in the 
+            technical industry to gain practical experience in the domain of computer science in the field of web development. I am 
+            enthusiastic to learn on every step and keep honing my skills.
+          </p>
+          <br>
+          <h2 class="text-warning">Skill Highlights</h2>
+          <p>
+              <ul>
+                  <li> <b class="text-warning">Languages</b>: Python, C, C++, Java, HTML, CSS, and JavaScript</li>
+                  <li> <b class="text-warning">Databases</b>: MySQL, MongoDB, and Mongoose</li>
+                  <li> <b class="text-warning">Technologies</b>: React.js, NodeJs, EJS, Express, jQuery, Bootstrap and Git</li>
+                  <li> <b class="text-warning">Command-Line Tools</b>: Windows and Linux Bash</li>
+                
+                </ul>
+          </p>
+         
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./img/cric.png"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">CricStats Website</h5>
+              <p class="card-text">
+                It follows complete CRUD and has authentication and authorisation. Used HTML, CSS, JavaScript, Bootstrap, EJS, MongoDB, Node.js, ExpressJs.
+              </p>
+              <a href="https://github.com/AMAN322/Cricket-Stats" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./img/color.png"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">RGB Color Guessing Game</h5>
+              <p class="card-text">
+                You have to guess the color for the RGB contents of it. Has 6 colors on hard mode and 3 on easy.  Used HTML, CSS, JavaScript to build this game.
+              </p>
+              <a href="https://github.com/AMAN322/color-guessing-game" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+          </div>
+      
+        <div class="col-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./img/portfolio.png"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Portfolio</h5>
+              <p class="card-text">
+                Used HTML, CSS, Bootstrap to build my portfolio. It is reactive with a vibrant layout. Made this as a minor project for my internship at SmartKnower.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Reach me at</h4>
+        <div class="row pt-5">
+            
+            <a href="https://www.linkedin.com/in/aman-boobna-b2a8221a0/">
+          <div class="col-4 media_link btn">
+            <div class="row">
+               
+             
+                    <div class="col-6 d-flex justify-content-start">
+                    <h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </a>
+        </div>
+        
+        <a href="https://github.com/AMAN322"> 
+          <div class="col-4 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">Github</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+          </a>
+
+          <!-- <a href="https://www.linkedin.com/in/aman-boobna-b2a8221a0/">
+          <div class="col-4 media_link btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">Youtube</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-youtube fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div>
+        </a> -->
+
+          <!-- <div class="col-3 media_link bg-warning btn">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-dark">Email</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fas fa-envelope fa-2x text-secondary"></i>
+              </div>
+            </div>
+          </div> -->
+      
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Copyright &copy; 2021 |
+          <a class="text-warning text-decoration-none" href="#about"
+            >Aman Boobna</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
